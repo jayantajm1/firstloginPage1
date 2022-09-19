@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+height: 100vh;
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/cover.jpg);
+background-position: center;
+background-size: cover;
+position: relative;
+}
+.navbar-style{
+box-shadow: 0 5px 10px white;
+text-transform: uppercase;
+}
+nav{
+    display: flex;
+    padding: 0% 2%;
+    justify-content: space-between;
+    position: relative;
+}
+.logo{
+    height: 62px;
+    padding:2px 2px;
+}
+.icon-bar{
+background: rgb(223, 223, 225);
+} 
+li a{
+    color: #fff;
+}
+.big-text{
+    font-size: 20px;
+    margin: 20px 0;
+    color: rgb(104, 26, 26);
+}
+a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    border-radius: 20px;
+}
+a.btn-first{
+    background-color: aqua;
+    color: #333;
+
+}
+a.btn-second{
+    background: transparent;
+    border: 1px solid darkgoldenrod;
+    color: black;
+
+}
+a.btn:hover{
+    background: darkgoldenrod;
+    border: none;
+    color: #fff;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
+}
+.container1{
+    width: 80%;
+margin: auto;
+padding-top: 100px;
+text-align: center;
+}
+.container1.banner-info{
+    flex-basis: 44%;
+margin: auto;
+
+
+}
+.container1.banner-img{
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30%;
+
+}
+.container1.banner-img .fa{
+    color: #fff;
+}
+@media(max-width:700px) {
+    .banner-img{
+        margin-left: 40px;
+        margin-right: 15px;
+
+    }
+}
+    *{box-sizing: border-box}
+    .mySlides1, .mySlides2 {display: none}
+    img {vertical-align: middle;}
+    /* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
